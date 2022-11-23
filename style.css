@@ -1,0 +1,93 @@
+
+    body{
+        background-color: #0d1323;
+      }
+      .main{
+        height: 600px;
+        width:1200px;
+        display: flex;
+        margin: 150px 100px;
+      }
+      .sidemain{
+        height:500px;
+        width:250px;
+        margin-right: 50px;
+      }
+      .profile{
+        background-color: #5746ea;
+        height:350px;
+        width:220px;
+        border-radius:20px;
+        position:absolute;
+        z-index: 2;
+        padding:25px;
+        color:#aaa4f8;
+      }
+      #name{
+        font-size: 55px;
+        color:white;
+      }
+      .profile img{
+        width:100px;
+        border-radius:50%;
+        margin-bottom:30px;
+      }
+      .duration{
+        height:250px;
+        width:220px;
+        background-color: #1d204b;
+        color:#696cac;
+        position:absolute;
+        top:450px;
+        z-index: 1;
+        border-radius:20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-end;
+        padding:25px;
+      }
+      .sidemain2{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height:600px;
+        width:900px;
+      }
+      .box{
+        height:250px;
+        width:250px;
+        margin:20px;
+        position:relative;
+      }
+      .box1{
+        display: flex;
+        justify-content: flex-end;
+        height:100px;
+        width:250px;
+        border-radius:20px;
+      }
+      .box1 img{
+        width:80px;
+        height:60px;
+      }
+      .box2{
+        background-color: #1d204b;
+        border-radius:20px;
+        height:150px;
+        width:200px;
+        position:absolute;
+        top:45px;
+        padding:25px;
+        color:white;
+      }
+      .box2head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .box2 p{
+        color:#aaa4f8;
+      }
+      #hrs{
+        font-size: 55px;
+      }
